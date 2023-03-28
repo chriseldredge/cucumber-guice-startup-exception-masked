@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="cucumber-guice-sample">
+    <parameter name="cucumber.features" value="src/test/resources/features/"/>
+    <parameter name="cucumber.publish.quiet" value="true"/>
+    <test name="default">
+        <classes>
+            <class name="cucumber.guice.sample.CucumberTests"/>
+        </classes>
+    </test>
+</suite>
